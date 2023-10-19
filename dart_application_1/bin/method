@@ -1,5 +1,5 @@
 
-void main() {
+void main() { {
  // params and return
   // void 
   // data type return type
@@ -7,41 +7,42 @@ void main() {
   // void methodname(){
   //   // code
   // }
-void printNames () {
-  print('mohammad');
-  print('khldoon');
-  print('Ali');
-}
-printNames();
+// void printNames () {
+//   print('mohammad');
+//   print('khldoon');
+//   print('Ali');
+// }
+// printNames();
 
  //method to calculate the sum of 2 numbers
-void main() 
-void sum ({var a , var b , var c , var d , var x } ) {
- var z = a + b + x + d + c;
- return  (z) ;
- }
+// void main() 
+// void sum ({var a , var b , var c , var d , var x } ) {
+//  var z = a + b + x + d + c;
+//  return  (z) ;
+//  }
 
 // sum (5,6);
 // sum (11,15);
-   print sum (
-     a: 5,
-     c: 6,
-     d: 7,
-     x: 8,
-     b: 10,
-   );
+  //  print sum (
+  //    a: 5,
+  //    c: 6,
+  //    d: 7,
+  //    x: 8,
+  //    b: 10,
+  //  );
 }
   // 2 methods >> 1. return string 2. return int
 
   // declare method
-  //void devideTwoNumbers() {
+  void devideTwoNumbers() {
     // code
-    //var a = 5;
-  //  var b = 10;
-   // var c = a / b;
-   // return print(c);
- // }
-// is and is!
+    var a = 5;
+    var b = 10;
+    var c = a / b;
+    return print(c);
+  }
+
+//is and is!
 
 var x=5.0;
 if (x is! int){
