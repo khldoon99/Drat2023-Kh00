@@ -82,7 +82,23 @@ print(age);
   //  null : you declared var but you didint add value to it
   //  undef : you try to call a var that you didnt declare it 
 //  nullable var
+  
   int? num2; 
   num2=5;
   print('num2 = $num2');
+  
+  int  i = 0;
+  bool isTrue = true ;
+  while (isTrue){
+if(i==5){
+  print('ime continue');
+  i++;
+  continue;
 }
+  if(i==10){
+    isTrue=false;
+  }
+print(i);
+}
+
+  }
