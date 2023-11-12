@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 void main() {
   //  محاور دراسة الكورس 
  //  we will use the comment to explain the code in the program
@@ -100,5 +102,36 @@ if(i==5){
   }
 print(i);
 }
+
+// List menu = {'exit', 3 , 'register' ,'exit'};
+// menu.remove('exit');
+// menu.toString ();
+
+// String var2 = 'ahmad';
+// String var3 = 'ahmad2';
+// String var4 = var2 + var3;
+// menu.add((1,2,3,4,5,6,7,8,9,10));
+// // menu.removeAt(1);
+// // menu.removeLast();
+// menu.removeRange(0,1); 
+
+
+
+List list3 = [1,2,3,4,5,6,7,8,9,10,];
+List list4 = list3.sublist(3,7);
+print(list4);
+String newStr = 'ime new string';
+print(newStr[5]);
+String birthDay = '12/10/2000';
+print(birthDay.contains(1))  ;
+List newBirthDay = birthDay.split('/');
+print(newBirthDay[1]);
+
+
+
+
+
+
+
 
   }
