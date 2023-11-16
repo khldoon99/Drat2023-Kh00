@@ -1,19 +1,19 @@
 void main() {
-  int a = 5;
-  int b = 10;
-  int c = 6;
+  // int a = 5;
+  // int b = 10;
+  // int c = 6;
 
   // print(a > b);
   print('------' * 15);
 
   /// false
-  if (c > b) {
-    print('c is greater than b');
-  } else {
-    print('c is less than b');
-  }
+  // if (c > b) {
+  //   print('c is greater than b');
+  // } else {
+  //   print('c is less than b');
+  // }
 
-  print('------' * 15);
+  // print('------' * 15);
 
   /// Even or odd
   int num = 6;
