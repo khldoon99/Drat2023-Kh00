@@ -2,10 +2,10 @@
 // ~/ اقتطاع باقي القسمة اي تقريب النتيجة الى صفر اي لا يجب ان تكون النتيجة صفر 
 // % باقي القسمة 
 void main() {
-  int a = 5;
-  int b = 2;
-  int c = 6;
-  int d = 5;
+  // int a = 5;
+  // int b = 2;
+  // int c = 6;
+  // int d = 5;
 // // start operations tutprial with +,- * , / , ~/, %
 //   print('__' * 40);
 //   print('Add +');
