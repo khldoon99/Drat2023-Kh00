@@ -1,3 +1,7 @@
+import 'dart:io';
+
+import "package:test/test.dart";
+
 void main () {
 // //  we will use the comment to explain the code in the program
 //   //  and the comment will not be executed
@@ -81,33 +85,81 @@ void main () {
 
 
 
-// //   // loops : for , while , do While,
-// //   //  for loop > for(initialization;condition;increment/decrement)
-// //   //  for is a loop that repeat the code for specific number of times
-// //   //  while loop > while(condition)
-// // //   int i = 0;
-// // //   bool isTrue = true;
-// // //   while (isTrue){
-// // //     //  
-// // //     if(i==5){
-// // //       print('iam continue');
-// // //       i++;
-// // //       continue;
-// // //     }
+  // loops : for , while , do While,
+  //  for loop > for(initialization;condition;increment/decrement)
+  //  for is a loop that repeat the code for specific number of times
+  //  while loop > while(condition)
+  
+  // int e= 0  ;
+  // while (true) {
+    
+  
+  // if (e==10) {
+  //   continue;
+    
+  // }
+  // print(e);
+  // e++;
 
-// // //     if(i==10){
-// // //       isTrue=false;
-// // //     }
+  // int i = 0;
+  // bool isTrue = true;
+  // while (isTrue){
+  //   //  
+  //   if(i==5){
+  //     print('iam continue');
+  //     i++;
+  //     continue;
+  //   }
 
-// // //     print(i);
-// // //     i++;
-// // //   }
-// // //   // take input from the user and save the value in var
-// // //   print('Enter your name');
-// // //   var input1 = stdin.readLineSync();
-// // //   print('input1 = $input1');
+  //   if(i==10){
+  //     isTrue=false;
+  //   }
 
-// // //  list method in dart
+  //   print(i);
+  //   i++;
+  // // }
+
+
+  // take input from the user and save the value in var
+  // print('Enter your name');
+  // var input1 = stdin.readLineSync();
+  // print('input1 = $input1');
+
+// مثال اخر  
+
+// print('enter your age');
+// dynamic x = stdin.readLineSync();
+// print('Your age = $x');
+
+
+  
+//   print('Welcome to our login app');
+// while (true) {
+//   print('--------'*25);
+//   print('1- login');
+//   print('2-Register');
+//   print('3- Exit');
+//  var choice  = stdin.readLineSync();
+ 
+// if (choice=='1') {
+//   print('i ma Login');
+// }
+
+// else if (choice=='2'){
+// print('i am Register');
+
+// }
+// else if (choice=='3'){
+
+// print('Dood day');
+// break;
+// }
+// else {
+// print('worng Choice please select');
+
+// }
+
+// // //  list method in dart 
 // // List menu = ['exit',3,'register','exit'];
 // // menu.remove('exit');
 // // menu.toString();
@@ -270,10 +322,6 @@ void main () {
 // //  player 1 : enter the word
 // //  player2 : guss the word  he just have 6 chance to guss the word
 
-
-
-
-
-
 }
 
+}
