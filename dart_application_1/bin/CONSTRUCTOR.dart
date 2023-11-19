@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_initializing_formals, file_names
-// void main(){
+void main(){
 // print("helow from CONSTRUCTOR");
 // Student student1 = Student.namedConstructor('ali', 20, 1);
 
@@ -44,4 +44,30 @@
 
 //   // class name =  employee
 //   // class properties = name, age, salary
-// }
+
+Employee emplo1 =Employee('ahmad', 28 , 255 ) ; 
+print(emplo1.name);
+print(emplo1.age);
+print(emplo1.salary);
+
+}
+
+class Employee {
+
+  String? name; 
+  int? age; 
+  double? salary; 
+
+  Employee(String name, int age , double salary ){
+
+this.name = name;
+this.age = age;
+this.salary=salary;
+
+  } 
+  
+
+  
+  
+
+}
