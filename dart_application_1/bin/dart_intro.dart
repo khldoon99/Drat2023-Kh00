@@ -158,6 +158,7 @@ void main () {
 
 // }
 
+
 // // //  list method in dart 
 // // List menu = ['exit',3,'register','exit'];
 // // menu.remove('exit');
@@ -181,14 +182,14 @@ void main () {
 
 // // //  string methods in dart 
 
-// // // 
-// // String newStr = 'i ma new string';
-// // // print(newStr[5]);
-// // String birthDay = '12/10/2000';
-// // print(birthDay);
-// // print(birthDay.contains("1"));
-// // List newBirthDay= birthDay.split('/');
-// // print(newBirthDay[1]);
+// String newStr = 'i ma new string';
+// print(newStr[5]);
+// String birthDay = '12/10/2000';
+// print(birthDay);
+// print(birthDay.contains("1"));
+// List newBirthDay= birthDay.split('/');
+// print(newBirthDay[1]);
+
 // //  home work :> 
 
 // // print(menu[0] +5);
@@ -204,33 +205,34 @@ void main () {
 // //   print('1- Login');
 // //   print('2- Register');
 // //   print('3- Exit');
-// //   // map1= {
-// //   //   'name':name,
-// //   //   'age':age,
-// //   //   'pass':pass
-// //   // }
-// //   var choice = stdin.readLineSync();
-// //   if(choice=='1'){
-// //       print('i am login');
-// //       print('__'*50);
-// //       if (users !=[]){
-// //         print('inter your name');
-// //         var username= stdin.readLineSync();
-// //         print('inter your password');
-// //         var password= stdin.readLineSync();
-// //         for (var i = 0; i < users.length; i++) {
-// //           if(username == users[i]['name'] && password==users[i]['pass']){
-// //             print('welcome ${users[i]['name']}');
-// //             break;
-// //           }
-// //           else{
-// //             print('wrong username or password');
-// //           }
-// //         }
-// //       }
-// //       else{
-// //         print('there is no users please register');
-// //       }
+
+//   // map1= {
+//   //   'name':name,
+//   //   'age':age,
+//   //   'pass':pass
+//   // }
+//   var choice = stdin.readLineSync();
+//   if(choice=='1'){
+//       print('i am login');
+//       print('__'*50);
+//       if (users !=[]){
+//         print('inter your name');
+//         var username= stdin.readLineSync();
+//         print('inter your password');
+//         var password= stdin.readLineSync();
+//         for (var i = 0; i < users.length; i++) {
+//           if(username == users[i]['name'] && password==users[i]['pass']){
+//             print('welcome ${users[i]['name']}');
+//             break;
+//           }
+//           else{
+//             print('wrong username or password');
+//           }
+//         }
+//       }
+//       else{
+//         print('there is no users please register');
+//       }
       
 // //   }
 // //   else if(choice=='2'){
@@ -282,6 +284,8 @@ void main () {
 //   3:person4
 // };
 // // allPersons[3]?['salary']= 2000.0;
+
+
 // //  arrow function > function that return one line of code
 
 // //  delete person2 fro the allPersons map 
@@ -290,6 +294,8 @@ void main () {
 // person4.update('salary', (key) => 'test');
 // print(person4);
 // print(allPersons);
+
+
 // print("please inter the name ");
 
 // String? inputName = stdin.readLineSync();
@@ -303,8 +309,6 @@ void main () {
 //   else{
 //     beforeEdit.add(name[i]);
 //   }
-  
-
 // }
 // String collectCar= '';
 // for (var i = 0; i < beforeEdit.length; i++) {
@@ -314,12 +318,12 @@ void main () {
 // }
 // print(AfterEdit(inputName!));
 
-// //  function to take input from the user  as a text and if the text contain h and l remove it
-// //  and replace it with * Example : input : ahmed , output : a*med
+//  function to take input from the user  as a text and if the text contain h and l remove it
+//  and replace it with * Example : input : ahmed , output : a*med
 
-// //  function to create a gussing game with 2 players  
-// //  player 1 : enter the word
-// //  player2 : guss the word  he just have 6 chance to guss the word
+//  function to create a gussing game with 2 players  
+//  player 1 : enter the word
+//  player2 :  the word  he just have 6 chance to guss the word
 
 }
 
