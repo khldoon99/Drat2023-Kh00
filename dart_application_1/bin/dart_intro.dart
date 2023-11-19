@@ -1,6 +1,8 @@
 // import 'dart:io';
 
 
+import 'dart:ffi';
+
 void main () {
 // //  we will use the comment to explain the code in the program
 //   //  and the comment will not be executed
@@ -325,5 +327,18 @@ void main () {
 //  player 1 : enter the word
 //  player2 :  the word  he just have 6 chance to guss the word
 
+
 }
+
+
+// class PER {
+  
+// String?  name ; 
+// Int? age  ;
+// double?  salary ;
+// String? password ;
+
+// PER (String name , int age , double salary, )
+
+// }
 
