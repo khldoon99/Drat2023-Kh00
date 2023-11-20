@@ -1,7 +1,7 @@
 // import 'dart:io';
 
 
-import 'dart:ffi';
+// import 'dart:ffi';
 
 void main () {
 // //  we will use the comment to explain the code in the program
@@ -328,17 +328,43 @@ void main () {
 //  player2 :  the word  he just have 6 chance to guss the word
 
 
-}
+}  
+
+//  class :> class is a blueprint to create objects
+//  attributes :> var inside the class
+//  methods(behavio)> function :> function inside the class
+
+// //  object :> instance of the class
+
+// Person personx =Person(name: 'ahmad',password: '123456');
+// print('personx.name= ${personx.name}');
+// print('personx.age= ${personx.age}');
+// print('personx.salary= ${personx.salary}');
+// print('personx.password= ${personx.password}');
+// Person pers2 = Person(name: 'test');
+
+// print(personx.callName('ali'));
+// print(pers2.callName(personx.name!));
 
 
-// class PER {
-  
-// String?  name ; 
-// Int? age  ;
-// double?  salary ;
-// String? password ;
+//    class Person {
+//   //  attri
+//   String? name;
+//   int? age ;
+//   double? salary;
+//   String? password ;
 
-// PER (String name , int age , double salary, )
+//   Person({this.name ,this.age,this.salary,this.password});
 
-// }
+//   //  deafult String method
+
+
+//   //  methods
+
+//   //  method to call the person name
+//   String callName(String callername){
+
+//     return ' ${name} is calling ${callername}';
+
+//   }
 
