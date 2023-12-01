@@ -320,14 +320,6 @@ void main () {
 // }
 // print(AfterEdit(inputName!));
 
-//  function to take input from the user  as a text and if the text contain h and l remove it
-//  and replace it with * Example : input : ahmed , output : a*med
-
-//  function to create a gussing game with 2 players  
-//  player 1 : enter the word
-//  player2 :  the word  he just have 6 chance to guss the word
-
-
 }  
 
 //  class :> class is a blueprint to create objects
@@ -366,5 +358,178 @@ void main () {
 
 //     return ' ${name} is calling ${callername}';
 
+
+
+// // //  take the name ,age,pass,main salary and selct the postion of the person [manager,developer,designer] 
+// // //  if the person is manager add 500 to the main salary
+// // //  if the person is developer add 300 to the main salary
+// // //  if the person is designer add 200 to the main salary
+// // print('enter your name');
+// // String? name = stdin.readLineSync();
+// // int? age;
+// // while (true) {
+// //   try {
+// //   print('enter your age');
+
+// //   age = int.parse(stdin.readLineSync()!);
+// //   break;
+// // } catch (e) {
+// //   print(e);
+// // }
+// // }
+
+
+// // print('enter your password');
+// // String? pass = stdin.readLineSync();
+// // double? mainsalary;
+// // while (true) {
+// //   try {
+// // print('enter your main salary');
+
+// //   mainsalary = double.parse(stdin.readLineSync()!);
+// //   break;
+// // } catch (e) {
+// //   print(e);
+// // }
+// // }
+// // print('enter your position');
+// // print('1-manager');
+// // print('2-developer');
+// // print('3-designer');
+// // String strPosition = '';
+
+// // while (true) {
+// //   try {
+// // print('enter your position');
+
+// // int? position = int.parse(stdin.readLineSync()!);
+// // if(position==1){
+// //   print('iam in if');
+// //   strPosition = 'manager';
+// // }
+// // else if(position==2){
+// //   print('iam in if 2');
+
+// //    strPosition = 'developer';
+// // }
+// // else if(position==3){
+// //   print('iam in if3');
+
+// //    strPosition = 'designer';
+// // }
+// // else{
+// //   print('wrong choice');
+// // }
+// // print(strPosition);
+
+  
+// //   break;
+// // } catch (e) {
+// //   print(e);
+// // }
+// // }
+// // //  create a class person with the attributes name ,age ,password ,salary
+
+// // Person employy1= Person(name: name,age: age,password: pass,position: strPosition);
+// // employy1.salary = mainsalary;
+// // print('employy1.name = ${employy1.name}');
+// // print('employy1.age = ${employy1.age}');
+// // print('employy1.password = ${employy1.password}');
+// // print('employy1.salary = ${employy1.salary}');
+
+
+// MacBook mac1 = MacBook('macbook pro', 'silver', 'mac os');
+// print(mac1.name);
+// print(mac1.color);
+// print(mac1.os);
+// print(mac1.test);
+// mac1.displayInfo();
+// Person person1 = Person(name: 'ahmsad',age: 20,password: '123456',position: 'manager');
+// person1.salary = 1000.0;
+// print(person1._salary);
+// }
+
+// class Person {
+//   //  attri
+//   String? name;
+//   int? age ;
+//   // ignore: prefer_final_fields
+//   double _salary=0.0;
+//   String? password ;
+//   String? position;
+//   //  priv att
+//   // constructor
+//   Person({this.name ,this.age,this.password ,this.position});
+
+
+//   //  deafult String method
+
+// // setter and getter
+// //  setter :> method that set the value of the attri
+// //  getter :> method that get the value of the attri
+// //  setter syntax :> set attri_name(value){this.attri_name = value;}
+// set salary(double salary){
+//  if (position=='manager'){
+//    this._salary = salary + 500;
+//  }
+//  else if(position=='developer'){
+//    this._salary = salary + 300;
+//  }
+//  else if(position=='designer'){
+//    this._salary = salary + 200;
+//  }
+//  else{
+//    this._salary = salary;
+//  }
+// }
+
+// double get salary{ return this._salary;}
+
+//   //  methods
+
+//   //  method to call the person name
+//   String callName(String callername){
+
+
+
+//     return ' ${name} is calling ${callername}';
 //   }
+
+// }
+
+
+// class Laptop{
+// String? name;
+// String? color;
+// String? test='test';
+
+// Laptop(this.name,this.color);
+// void displayInfo(){
+//   print('the  ${this.name} is running');
+
+
+// }
+
+
+// class MacBook extends Laptop{
+//   String? os;
+//   MacBook( name, color,this.os):super(name,color);
+// } 
+
+// class Version extends MacBook{
+//   String? version;
+//   Version( name, color, os,this.version):super(name,color,os);
+// }
+// class Dell extends Laptop{
+//   String? os;
+  
+//   Dell( name, color,this.os):super(name,color);
+// }
+
+
+
+// homeWork#
+// //   creat 3 classes 1 for laptop and 2 for macbook and version
+
+
 
