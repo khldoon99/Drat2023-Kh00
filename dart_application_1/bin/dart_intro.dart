@@ -526,7 +526,12 @@ void main () {
 //   Dell( name, color,this.os):super(name,color);
 // }
 
+// import 'student.dart';
 
+// void main(){
+//   print('object');
+// Student person1 = Student('ahmed', 20, 'amman', '123456','email','pghone', 90.0);
+// }
 
 // homeWork#
 // //   creat 3 classes 1 for laptop and 2 for macbook and version
